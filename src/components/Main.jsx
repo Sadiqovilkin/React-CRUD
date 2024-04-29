@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import AddForm from './AddForm'
-import { getAll } from '../API/requests'
+import { deleteOne, getAll } from '../API/requests'
+import Modal from './Modal'
 
 const Main = () => {
     const [products , setproducts] = useState([])
+    const [display , setdisplay] = useState("d-none")
     const getProducts=()=>{
         getAll("products").then((res)=>{
             setproducts(res.data)
@@ -36,8 +38,14 @@ const Main = () => {
                             <td>{el.name}</td>
                             <td>{el.price}</td>
                             <td> <button className='btn btn-primary '>Favorite</button> </td>
-                            <td> <button className='btn btn-danger '>Delete</button> </td>
-                            <td> <button className='btn btn-info  '>Uptdate</button> </td>
+                            <td> <button className='btn btn-danger ' onClick={async()=>{
+                                await deleteOne("products",el.id)
+                                getProducts()
+                            }} >Delete</button> </td>
+                            <td> <button className='btn btn-info'
+                            onClick={()=>{
+                                setdisplay("d-block")
+                            }}>Uptdate</button> </td>
                         </tr>
                          )
 
@@ -46,6 +54,7 @@ const Main = () => {
                     </table>
                 </div>
             </section>
+            <Modal display={display} />
         </>
     )
 }
