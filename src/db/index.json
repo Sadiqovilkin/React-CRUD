@@ -1,29 +1,89 @@
 {
-    "products": [
-      {
-        "id": "93c9",
-        "name": "lorem impsum ",
-        "price": 300
-      },
-      {
-        "id": "93c5",
-        "name": "lorem impsum ",
-        "price": 300
-      },
-      {
-        "id": "93c6",
-        "name": "Mens casual lorem impsum ",
-        "price": 300
-      },
-      {
-        "id": "93c7",
-        "name": "lorem impsum ",
-        "price": 300
-      },
-      {
-        "id": "93c8",
-        "name": "lorem impsum ",
-        "price": 300
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "93c9",
+      "name": "lorem impsum ",
+      "price": 300
+    },
+    {
+      "id": "93c5",
+      "name": "lorem impsum ",
+      "price": 65.5
+    },
+    {
+      "id": "93c6",
+      "name": "Mens casual lorem impsum ",
+      "price": 500
+    },
+    {
+      "id": "93c7",
+      "name": "lorem impsum ",
+      "price": 50
+    },
+    {
+      "id": "93c8",
+      "name": "lorem impsum ",
+      "price": 60
+    },
+    {
+      "name": "",
+      "price": "",
+      "id": "h1fYMgg"
+    },
+    {
+      "name": "sahib",
+      "price": "85",
+      "id": "YEiNYUe"
+    },
+    {
+      "name": "CAR",
+      "price": "60",
+      "id": "_cuBolc"
+    },
+    {
+      "name": "sahib",
+      "price": "85",
+      "id": "YVBOMYl"
+    },
+    {
+      "name": "sahib",
+      "price": "85",
+      "id": "QKyu87U"
+    },
+    {
+      "name": "ilkin",
+      "price": "95",
+      "id": "nKOw-hc"
+    },
+    {
+      "name": "CAR",
+      "price": "98",
+      "id": "kKPylP4"
+    },
+    {
+      "name": "sahib",
+      "price": "85",
+      "id": "m_6Md9j"
+    },
+    {
+      "name": "dvxdgv",
+      "price": "4444",
+      "id": "G7BFRiI"
+    },
+    {
+      "name": "ss",
+      "price": "444",
+      "id": "R74T-pj"
+    },
+    {
+      "name": "fedf",
+      "price": "444",
+      "id": "lhTRmL7"
+    },
+    {
+      "name": "newproduct",
+      "price": "5555",
+      "id": "W3P1vSx"
+    }
+  ]
+}

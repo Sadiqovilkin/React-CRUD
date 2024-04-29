@@ -1,5 +1,6 @@
 import axios from "axios";
-import { BASE_URL } from "./base";
+import { BASE_URL } from "./base.js";
+
 
 
 //get all
