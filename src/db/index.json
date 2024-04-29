@@ -1,79 +1,16 @@
 {
   "products": [
     {
-      "id": "93c9",
-      "name": "lorem impsum ",
-      "price": 300
+      "id": "ec2f",
+      "name": "Telephone",
+      "price": "900",
+      "isDiscounted": "true"
     },
     {
-      "id": "93c5",
-      "name": "lorem impsum ",
-      "price": 65.5
-    },
-    {
-      "id": "93c6",
-      "name": "Mens casual lorem impsum ",
-      "price": 500
-    },
-    {
-      "id": "93c7",
-      "name": "lorem impsum ",
-      "price": 50
-    },
-    {
-      "id": "93c8",
-      "name": "lorem impsum ",
-      "price": 60
-    },
-    {
-      "name": "sahib",
-      "price": "85",
-      "id": "YEiNYUe"
-    },
-    {
-      "name": "CAR",
-      "price": "60",
-      "id": "_cuBolc"
-    },
-    {
-      "name": "sahib",
-      "price": "85",
-      "id": "YVBOMYl"
-    },
-    {
-      "name": "sahib",
-      "price": "85",
-      "id": "QKyu87U"
-    },
-    {
-      "name": "ilkin",
-      "price": "95",
-      "id": "nKOw-hc"
-    },
-    {
-      "name": "CAR",
-      "price": "98",
-      "id": "kKPylP4"
-    },
-    {
-      "name": "sahib",
-      "price": "85",
-      "id": "m_6Md9j"
-    },
-    {
-      "name": "dvxdgv",
-      "price": "4444",
-      "id": "G7BFRiI"
-    },
-    {
-      "name": "fedf",
-      "price": "444",
-      "id": "lhTRmL7"
-    },
-    {
-      "name": "newproduct",
-      "price": "5555",
-      "id": "W3P1vSx"
+      "id": "b380",
+      "name": "Computer",
+      "price": "5000",
+      "isDiscounted": "false"
     }
   ]
 }
